@@ -4,6 +4,7 @@ body {
     font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background: linear-gradient(135deg, #ece9f2 0%, #f6f3fa 100%);
     color: #333;
+    height: 100vh   ;
 }
 
 /* Prevent underline on hover */
