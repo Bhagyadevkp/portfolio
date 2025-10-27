@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Skills - Bhagyadev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background: #f8fafc;
+            font-family: "Poppins", sans-serif;
+            color: #2d3436;
+        }
+
+        .skills-page {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 50px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+        }
+
+        .skills-title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1d1d1f;
+        }
+
+        .skills-category {
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #444;
+            border-left: 4px solid #888;
+            padding-left: 10px;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li {
+            background: #f3f4f6;
+            margin: 10px 0;
+            padding: 12px 18px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .skills-list li:hover {
+            background: #eceff1;
+            transform: translateX(4px);
+        }
+
+        .skills-list i {
+            margin-right: 12px;
+            font-size: 1.3rem;
+        }
+
+        .back-btn-sm {
+            display: inline-block;
+            margin-top: 40px;
+            background: #444;
+            color: #fff !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-decoration: none !important;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .back-btn-sm:hover {
+            background: #222;
+            transform: translateY(-2px);
+        }
+
+        /* ✅ Icon Colors */
+        .fa-python {
+            color: #3776AB;
+        }
+
+        .fa-cube {
+            color: #7b61ff;
+        }
+
+        .fa-js {
+            color: #f7df1e;
+        }
+
+        .fa-database {
+            color: #4DB33D;
+        }
+
+        .fa-code {
+            color: #e44d26;
+        }
+
+        .fa-css3-alt {
+            color: #264de4;
+        }
+
+        .fa-bootstrap {
+            color: #563d7c;
+        }
+
+        .fa-feather-pointed {
+            color: #00bcd4;
+        }
+
+        .fa-git-alt {
+            color: #f34f29;
+        }
+
+        .fa-cloud {
+            color: #0078d4;
+        }
+
+        .fa-link {
+            color: #009688;
+        }
+
+        .fa-cogs {
+            color: #444;
+        }
+
+        /* ✅ Responsive Design - Matches Profile Page */
+        @media (max-width: 768px) {
+            .skills-page {
+                margin: 25px 15px;
+                padding: 25px 20px;
+                border-radius: 14px;
+            }
+
+            .skills-title {
+                font-size: 1.5rem;
+                margin-bottom: 30px;
+            }
+
+            .skills-category {
+                font-size: 1.05rem;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                border-left-width: 3px;
+                padding-left: 8px;
+            }
+
+            .skills-list li {
+                font-size: 0.95rem;
+                padding: 10px 15px;
+                margin: 8px 0;
+            }
+
+            .skills-list i {
+                font-size: 1.1rem;
+                margin-right: 10px;
+            }
+
+            .back-btn-sm {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+                padding: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .skills-page {
+                padding: 20px 16px;
+            }
+
+            .skills-title {
+                font-size: 1.3rem;
+            }
+
+            .skills-category {
+                font-size: 1rem;
+            }
+
+            .skills-list li {
+                font-size: 0.9rem;
+                padding: 9px 12px;
+            }
+
+            .skills-list i {
+                font-size: 1rem;
+                margin-right: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="skills-page">
+        <h1 class="skills-title">💡 Technical Skills</h1>
+
+        <div>
+            <div class="skills-category">🔧 Core Development</div>
+            <ul class="skills-list">
+                <li><i class="fa-brands fa-python"></i> Python</li>
+                <li><i class="fa-solid fa-cube"></i> Odoo Framework (v13–v18)</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-solid fa-database"></i> SQL / PostgreSQL</li>
+                <li><i class="fa-solid fa-code"></i> XML / QWeb</li>
+            </ul>
+
+            <div class="skills-category">🎨 Front-End & UI</div>
+            <ul class="skills-list">
+                <li><i class="fa-solid fa-code"></i> HTML</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+                <li><i class="fa-brands fa-js"></i> jQuery</li>
+                <li><i class="fa-solid fa-feather-pointed"></i> OWL Framework</li>
+            </ul>
+
+            <div class="skills-category">🧠 Tools & Integrations</div>
+            <ul class="skills-list">
+                <li><i class="fa-solid fa-link"></i> API Integration</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git / GitHub / GitLab</li>
+                <li><i class="fa-solid fa-cloud"></i> Odoo.sh / AWS / Azure</li>
+                <li><i class="fa-solid fa-database"></i> Data Migration</li>
+                <li><i class="fa-solid fa-cogs"></i> Odoo Implementation & Deployment</li>
+            </ul>
+
+            <a href="index.html" class="back-btn-sm">← Back to Dashboard</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

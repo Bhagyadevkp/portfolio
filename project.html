@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projects - Bhagyadev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background: #f8fafc;
+            font-family: "Poppins", sans-serif;
+            color: #2d3436;
+        }
+
+        .projects-page {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 50px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.07);
+        }
+
+        .projects-title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1d1d1f;
+        }
+
+        .project-card {
+            background: #f3f4f6;
+            border-radius: 14px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            background: #eceff1;
+            transform: translateY(-3px);
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .project-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #607d8b, #455a64);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.4rem;
+            margin-right: 15px;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #222;
+            margin: 0;
+        }
+
+        .project-points {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .project-points li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .project-points li::before {
+            content: "•";
+            position: absolute;
+            left: 8px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .back-btn-sm {
+            display: inline-block;
+            margin-top: 40px;
+            background: #444;
+            color: #fff !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-decoration: none !important;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .back-btn-sm:hover {
+            background: #222;
+            transform: translateY(-2px);
+        }
+
+        /* ✅ Responsive Design */
+        @media (max-width: 768px) {
+            .projects-page {
+                margin: 30px 15px;
+                padding: 30px 20px;
+            }
+
+            .projects-title {
+                font-size: 1.6rem;
+            }
+
+            .project-card {
+                padding: 20px;
+            }
+
+            .project-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .project-icon {
+                width: 45px;
+                height: 45px;
+                margin-bottom: 10px;
+                font-size: 1.2rem;
+            }
+
+            .project-title {
+                font-size: 1.1rem;
+            }
+
+            .project-points li {
+                font-size: 0.9rem;
+            }
+
+            .back-btn-sm {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .projects-page {
+                padding: 20px 16px;
+            }
+
+            .projects-title {
+                font-size: 1.4rem;
+            }
+
+            .project-title {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="projects-page">
+        <h1 class="projects-title">🚀 Projects</h1>
+
+        <!-- Client Project 1 -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <h3 class="project-title">Client Project – ERP Customization</h3>
+            </div>
+            <ul class="project-points">
+                <li>Customized core Odoo modules (Sales, Purchase, Inventory, Accounting, CRM, Manufacturing) to align
+                    with client business processes.</li>
+                <li>Optimized Odoo workflows to improve operational efficiency.</li>
+                <li>Developed QWeb and Excel-based custom reports.</li>
+                <li>Built custom models and views using Python and XML.</li>
+                <li>Implemented real-time dynamic reporting and OWL-based dashboards.</li>
+            </ul>
+        </div>
+
+        <!-- Client Project 2 -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+                <h3 class="project-title">Client Project – Website Customization</h3>
+            </div>
+            <ul class="project-points">
+                <li>Customized Odoo website themes and developed custom pages using HTML, CSS, and JavaScript.</li>
+                <li>Created dynamic snippets for easy content updates.</li>
+                <li>Integrated secure payment gateways.</li>
+                <li>Implemented 360° product views for enhanced shopping experience.</li>
+            </ul>
+        </div>
+
+        <!-- Barcode Module -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-barcode"></i></div>
+                <h3 class="project-title">Barcode for Odoo Community</h3>
+            </div>
+            <ul class="project-points">
+                <li>Developed a barcode module for Odoo Community using the OWL framework, enhancing inventory
+                    management efficiency.</li>
+            </ul>
+        </div>
+
+        <!-- Gantt View -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                <h3 class="project-title">Gantt View for Odoo Community</h3>
+            </div>
+            <ul class="project-points">
+                <li>Created a base module implementing Gantt view across all models.</li>
+                <li>Built using the OWL framework for Odoo Community edition.</li>
+            </ul>
+        </div>
+
+        <!-- WhatsApp Integration -->
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <h3 class="project-title">WhatsApp Integration for Odoo Community</h3>
+            </div>
+            <ul class="project-points">
+                <li>Integrated WhatsApp with Odoo using Meta Cloud API.</li>
+                <li>Enabled users to send and receive messages directly from Odoo.</li>
+                <li>Developed automated WhatsApp flows and templates for campaign management.</li>
+            </ul>
+        </div>
+
+        <a href="index.html" class="back-btn-sm">← Back to Dashboard</a>
+    </div>
+
+</body>
+
+</html>

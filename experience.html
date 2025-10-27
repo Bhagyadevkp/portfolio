@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Experience - Bhagyadev</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #f8fafc;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+
+        .experience-card {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 50px;
+            margin: 60px auto;
+            max-width: 900px;
+        }
+
+        .section-header h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+
+        .timeline {
+            position: relative;
+            border-left: 2px solid #ccc;
+            padding-left: 25px;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: -9px;
+            top: 6px;
+            width: 14px;
+            height: 14px;
+            background: #444;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }
+
+        .timeline-content h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .timeline-content p {
+            margin: 2px 0;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 35px;
+            background: #444;
+            color: #fff !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-decoration: none !important;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .back-btn:hover {
+            background: #222;
+            transform: translateY(-2px);
+        }
+
+        /* ✅ Mobile Responsive */
+        @media (max-width: 768px) {
+            .experience-card {
+                padding: 25px 20px;
+                margin: 25px 15px;
+            }
+
+            .section-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .timeline {
+                padding-left: 18px;
+                border-left-width: 1.5px;
+            }
+
+            .timeline-item::before {
+                width: 10px;
+                height: 10px;
+                left: -6px;
+            }
+
+            .timeline-content h3 {
+                font-size: 1rem;
+            }
+
+            .timeline-content p {
+                font-size: 0.9rem;
+            }
+
+            .back-btn {
+                display: block;
+                text-align: center;
+                width: 100%;
+                margin-top: 30px;
+                padding: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .experience-card {
+                padding: 20px 15px;
+            }
+
+            .section-header h1 {
+                font-size: 1.3rem;
+            }
+
+            .timeline-content h3 {
+                font-size: 0.95rem;
+            }
+
+            .timeline-content p {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="experience-card">
+        <div class="section-header">
+            <h1>💼 Experience</h1>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Odoo Developer</h3>
+                    <p><strong>YOUGotaGift</strong> · Full-time</p>
+                    <p>Jun 2025 – Present · 5 mos</p>
+                    <p>Calicut · On-site</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Odoo Developer</h3>
+                    <p><strong>CYBROSYS Technologies Pvt Ltd</strong> · Full-time</p>
+                    <p>Jul 2022 – May 2025 · 2 yrs 11 mos</p>
+                    <p>Kozhikode, Kerala, India · On-site</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Django Developer</h3>
+                    <p><strong>BLUEGEN IT SOLUTIONS</strong> · Internship</p>
+                    <p>Apr 2021 – May 2021 · 2 mos</p>
+                    <p>Calicut, Kerala · On-site</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to Dashboard</a>
+    </div>
+
+</body>
+
+</html>
